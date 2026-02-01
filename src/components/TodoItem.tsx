@@ -60,8 +60,9 @@ export function TodoItem({ todo, onToggle, onDelete, onEdit }: TodoItemProps) {
         className="todo-delete"
         onClick={() => onDelete(todo.id)}
         aria-label="削除"
+        title="削除"
       >
-        ×
+        🗑️
       </button>
     </li>
   );
